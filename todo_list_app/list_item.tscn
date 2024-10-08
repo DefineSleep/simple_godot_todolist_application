@@ -11,7 +11,6 @@ script/source = "extends PanelContainer
 
 var can_be_deleted : bool = true 
 
-const CONDOR_EMBLEM = preload(\"res://Condor Emblem.svg\")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -23,7 +22,7 @@ func _process(delta):
 	pass
 
 func default_list():
-	texture_rect.set_texture(CONDOR_EMBLEM)
+
 	label.text = \"SAMPLE TEXT HERE\"
 	button.text = \"Delete\"
 	h_box_container.tooltip_text = \"INSERT DESCRIPTION HERE\"

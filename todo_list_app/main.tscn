@@ -24,6 +24,7 @@ grow_vertical = 2
 size_flags_horizontal = 3
 
 [node name="ColorRect" type="ColorRect" parent="list_side"]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -56,6 +57,11 @@ offset_bottom = 0.327998
 grow_horizontal = 2
 text = "ADD TO LIST"
 metadata/_edit_use_anchors_ = true
+
+[node name="NinePatchRect" type="NinePatchRect" parent="list_side"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 clip_contents = false

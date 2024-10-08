@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://ghta21dvexn1"]
+[gd_scene load_steps=2 format=3 uid="uid://eg65w3nctugf"]
 
 [sub_resource type="GDScript" id="GDScript_4nl7b"]
 script/source = "extends PanelContainer
@@ -11,7 +11,6 @@ script/source = "extends PanelContainer
 @onready var texture_rect = $HBoxContainer/TextureRect
 
 
-const CONDOR_EMBLEM = preload(\"res://Condor Emblem.svg\")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -23,7 +22,7 @@ func _process(delta):
 	pass
 
 func default_list():
-	texture_rect.set_texture(CONDOR_EMBLEM)
+
 	label.text = \"SAMPLE TEXT HERE\"
 	button.text = \"Delete\"
 	h_box_container.tooltip_text = \"INSERT DESCRIPTION HERE\"
